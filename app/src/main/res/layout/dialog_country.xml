@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:minHeight="@dimen/_150sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:drawablePadding="@dimen/_16sdp"
+        android:padding="@dimen/_8sdp"
+        android:text="Select City"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_16sdp" />
+
+    <EditText
+        android:id="@+id/dialog_et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@drawable/layout_bg"
+        android:drawableLeft="@drawable/places_ic_search"
+        android:hint="Search"
+        android:lines="1"
+        android:padding="@dimen/_2sdp"
+        android:singleLine="true"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/dialog_lv_filter_category"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#eee"
+        android:dividerHeight="1dp" />
+
+    <ProgressBar
+        android:id="@+id/dialog_filter_category_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>

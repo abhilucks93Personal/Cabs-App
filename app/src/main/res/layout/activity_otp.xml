@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/otp_et_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_12sdp"
+            android:background="@drawable/layout_bg"
+            android:gravity="center"
+            android:hint="Enter the otp"
+            android:inputType="number"
+            android:maxLength="6"
+            android:orientation="horizontal"
+            android:padding="@dimen/_12sdp"
+            android:textSize="@dimen/_16sdp" />
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/otp_tv_resend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:background="@drawable/layout_bg"
+        android:gravity="center"
+        android:padding="@dimen/_12sdp"
+        android:text="Resend OTP"
+        android:textSize="@dimen/_14sdp" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Taxi App</string>
+    <string name="logo_catch">Taxi.. !</string>
+
+    <string name="error_fields_mandatory">All the fields are mandatory</string>
+    <string name="error_email_fields_mandatory">Email field is mandatory</string>
+    <string name="error_invalid_email">Please enter valid email id</string>
+    <string name="error_password_mismatch">Password and confirm password should be same</string>
+    <string name="error_password_length">Password should be 5 characters long</string>
+
+
+</resources>
